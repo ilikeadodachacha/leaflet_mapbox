@@ -9,11 +9,25 @@ L.tileLayer(`https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=$
   accessToken: accessToken
 }).addTo(mymap);
 
-L.circle([30.486659999999997, -97.86330600000001], {
+L.circle([30.231135, -97.783301], {
   color: 'red',
   fillColor: '#f03',
   fillOpacity: 0.5,
-  radius: 500
+  radius: 100
+}).addTo(mymap);
+
+L.circle([30.268024, -97.719903], {
+  color: 'red',
+  fillColor: '#f03',
+  fillOpacity: 0.5,
+  radius: 100
+}).addTo(mymap);
+
+L.circle([30.406633000000003, -97.695707], {
+  color: 'red',
+  fillColor: '#f03',
+  fillOpacity: 0.5,
+  radius: 100
 }).addTo(mymap);
 
 
