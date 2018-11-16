@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/ilikeadodachacha/leaflet_mapbox/issues"
   },
-  "homepage": "https://github.com/ilikeadodachacha/leaflet_mapbox#readme"
+  "homepage": "https://github.com/ilikeadodachacha/leaflet_mapbox#readme",
+  "dependencies": {
+  }
 }
